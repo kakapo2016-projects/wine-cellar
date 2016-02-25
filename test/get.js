@@ -1,6 +1,6 @@
 var test = require('tape')
 var request = require('supertest')
-var app = require('../server')
+var app = require('../server/server')
 
 var expectedWine = [ 
 
@@ -17,7 +17,7 @@ var expectedWine = [
 
 test('/returns the correct wine', function (t) {
 	request(app)
-	  .get('/')
+	  .get('/cellar')
 	  .expect('Content type', /JSON/)
 	  .expect(200)
 	  .end(function (err, res) {
