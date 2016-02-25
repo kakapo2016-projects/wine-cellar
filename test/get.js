@@ -4,7 +4,7 @@ var app = require('../server/server')
 
 var expectedWine = [ 
 
-					{ "varietal": "chardonnay",
+					{ "varietal": "sauv",
 					    "qty": 6},
 
 					 {"varietal": "merlot",
@@ -21,6 +21,7 @@ test('/returns the correct wine', function (t) {
 	  .expect('Content type', /JSON/)
 	  .expect(200)
 	  .end(function (err, res) {
+	  	console.log(res)
 	  	t.equal(res.type, 'application/json', 'application/json')
 	  	t.equal(res.status, 200, 'status code 200')
 	  	t.equal(res.body.length, 3, 'correct length')
