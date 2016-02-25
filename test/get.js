@@ -17,7 +17,7 @@ var expectedWine = [
 
 test('/returns the correct wine', function (t) {
 	request(app)
-	  .get('/')
+	  .get('/cellar')
 	  .expect('Content type', /JSON/)
 	  .expect(200)
 	  .end(function (err, res) {
