@@ -9,8 +9,8 @@
   "scripts": {
     "test": "tape test/*.js | tap-spec",
     "watch": "watchify index.js -o bundle.js -t [ babelify --presets [ es2015 ] ]",
-    "start": "node server/server.js",
-    "nodemon": "nodemon server/server.js localhost 3000"
+    "start": "node server/index.js",
+    "nodemon": "nodemon server/index.js localhost 3000"
   },
   "repository": {
     "type": "git",
@@ -25,11 +25,13 @@
   "dependencies": {
     "babel": "^6.5.2",
     "babelify": "^7.2.0",
+    "body-parser": "^1.15.0",
     "express": "^4.13.4",
     "jquery": "^2.2.1",
     "nodemon": "^1.9.1",
     "path": "^0.12.7",
     "superagent": "^1.8.0-beta.1",
+    "supertest": "^1.2.0",
     "tape": "^4.4.0",
     "watchify": "^3.7.0"
   },
