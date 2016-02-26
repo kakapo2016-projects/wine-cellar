@@ -39,3 +39,7 @@ th {
 	min-width: 100px;
 	text-align: left;
 }
+
+input {
+	border-radius: 20px;
+}
