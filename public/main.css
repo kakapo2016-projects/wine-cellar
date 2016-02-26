@@ -23,19 +23,18 @@ h1 {
 }
 
 #table {
+
+	max-height: 
+	border-spacing: 10px;
+  border-collapse: separate;
+  margin-left: 25px;
+}
+td {
+	padding: 10px;
+
 	font-family: 'helvetica', sans-serif;  
 	margin-left: 150px;
 	margin-right: 150px;
 	font-size: 20px;
 	
-}
-
-td, th {
-	padding: 5px;
-	margin: 5px;
-}
-
-th {
-	min-width: 100px;
-	text-align: left;
 }
