@@ -15,6 +15,7 @@ module.exports = function () {
 
 function appendtoList(cellarData){
 	// var cellarArray = []
+	console.log(cellarData)
 
 
   $('#table').text('')
