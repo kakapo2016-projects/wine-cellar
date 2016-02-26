@@ -1,4 +1,4 @@
-var getRequest = require(./ajax.js/getFrom Server)
+// var getRequest = require(./ajax.js/getFromServer)
 
 module.exports =function(){
 
