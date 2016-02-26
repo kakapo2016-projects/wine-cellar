@@ -24,5 +24,10 @@ h1 {
 
 #table {
 	max-height: 
-
+	border-spacing: 10px;
+  border-collapse: separate;
+  margin-left: 25px;
+}
+td {
+	padding: 10px;
 }
