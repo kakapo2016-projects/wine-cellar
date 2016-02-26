@@ -23,23 +23,19 @@ h1 {
 }
 
 #table {
-
 	max-height: 
 	border-spacing: 10px;
-  border-collapse: separate;
-  margin-left: 25px;
+ 	border-collapse: separate;
+ 	margin-left: 25px;
 }
+
 td {
 	padding: 10px;
-
 	font-family: 'helvetica', sans-serif;  
 	margin-left: 150px;
 	margin-right: 150px;
-	font-size: 20px;
-	
+	font-size: 20px;	
 }
-<<<<<<< HEAD
-=======
 
 td, th {
 	padding: 5px;
