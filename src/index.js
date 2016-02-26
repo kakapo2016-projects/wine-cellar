@@ -14,9 +14,11 @@ $(document).ready(function() {
 
   $('#add').click(function() {
   	var newObj = {}
+  	console.log($('#varietalInput').val())
   	newObj['varietal'] = $('#varietalInput').val()
   	newObj['qty'] = $('#quantityInput').val()
 	console.log('click')
+	console.log("This OBJECT", newObj)
 	postRequest(newObj, createList())
   })
 })
