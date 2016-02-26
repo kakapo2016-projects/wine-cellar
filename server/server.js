@@ -24,4 +24,21 @@ server.get('/cellar', function (req, res) {
 })
 
 
+server.post('/cellar', function (req, res) {
+// console.log(res.body.cellar)
+fs.writeFile('./data/db.json', 'HELLO GAY!', function (err, data) {
+  if (err) throw err
+    console.log('this has worked')
+})
+
+  res.send('THIS IS A POST REQUEST!')
+})
+
+
+//add fs writeFile. 
+//write data to file
+
+
+
+
 module.exports = server
