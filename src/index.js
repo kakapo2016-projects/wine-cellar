@@ -17,7 +17,7 @@ $(document).ready(function() {
   	newObj['varietal'] = $('#varietalInput').val()
   	newObj['qty'] = $('#quantityInput').val()
 	console.log('click')
-	postRequest(newObj)
+	postRequest(newObj, createList())
   })
 })
 

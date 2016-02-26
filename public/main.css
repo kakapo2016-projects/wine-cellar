@@ -38,3 +38,20 @@ td {
 	font-size: 20px;
 	
 }
+<<<<<<< HEAD
+=======
+
+td, th {
+	padding: 5px;
+	margin: 5px;
+}
+
+th {
+	min-width: 100px;
+	text-align: left;
+}
+
+input {
+	border-radius: 20px;
+}
+>>>>>>> 4a228ad9cb880bd6120f0de66e1e74da722a4419
