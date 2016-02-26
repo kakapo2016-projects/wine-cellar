@@ -2,8 +2,11 @@ var getRequest = require(./getrequest)
 
 module.exports =function(){
 
-console.log("hello from create list")
 getRequest(appendtoList)
+
+
+	console.log("hello from create list")
+
 
 }
 

@@ -18,6 +18,7 @@ function postToServer (object, callback) {
 }
 
 module.exports = {
-	'getFromServer': getFromServer,
-	'postToServer': postToServer
+
+	"getFromServer": getFromServer,
+	"postToServer": postToServer
 }
