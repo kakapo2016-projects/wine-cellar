@@ -46,8 +46,9 @@ server.post('/cellar', function (req, res) {
         cellar.push(bottle)
         console.log(cellar)
         JSON.stringify(cellar)
-        console.log('json has worked', JSON.stringify(cellar))
-         fs.writeFile('./data/db.json', JSON.stringify(cellar), function (err, data) {
+        var cellarString = '{"cellar":' + JSON.stringify(cellar) + ' }'
+        console.log('This is the cellarString', cellarString)
+         fs.writeFile('./data/db.json', cellarString, function (err, data) {
             console.log('this has worked')
             res.json(cellar)
           })
