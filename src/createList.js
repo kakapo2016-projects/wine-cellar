@@ -1,8 +1,9 @@
-var getRequest = require(./getrequest)
+var getRequest = require("./getrequest")
+
 
 module.exports =function(){
 
-getRequest(appendtoList)
+getRequest()
 
 
 	console.log("hello from create list")
@@ -11,9 +12,4 @@ getRequest(appendtoList)
 }
 
 
-function appendtoList(cellarData){
-  $('#table').text('')
-  cellarData.forEach( (item) => {
-     $('#table').append('<div>' + item.varietal + '</div>')
-  })
-}
+
