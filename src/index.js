@@ -7,9 +7,11 @@ var createList = require('./createList.js')
 
 $(document).ready(function() {
 
-	// load the list
   createList()
 
-	// addListener()
+  $('#add').click(function() {
+console.log('click')
+//call post request
+  })
 })
 

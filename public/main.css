@@ -4,7 +4,6 @@ body {
     background-repeat: no-repeat;
 }
 
-
 #opaque {
 	margin-left: 20%;
 	margin-right: 20%;
@@ -14,6 +13,7 @@ body {
 	border-color: black;
 	background-color: white;
 	opacity: 0.6;
+	border-radius: 25px;
 }
 
 h1 {
@@ -23,6 +23,7 @@ h1 {
 }
 
 #table {
+
 	max-height: 
 	border-spacing: 10px;
   border-collapse: separate;
@@ -30,4 +31,10 @@ h1 {
 }
 td {
 	padding: 10px;
+
+	font-family: 'helvetica', sans-serif;  
+	margin-left: 150px;
+	margin-right: 150px;
+	font-size: 20px;
+	
 }
